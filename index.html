@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <!-- tailwind css link -->
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <!-- css link -->
+     <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="flex h-dvh justify-center items-center bg-slate-100">
+    <div class="main px-10 py-8 rounded-lg bg-slate-300 shadow-2xl flex flex-col gap-3">
+        <h1 class="font-bold text-red-900 text-lg" >Weather App</h1>
+        <div class="container flex relative">
+            <input class="w-full border outline-none p-1" type="text" placeholder="Enter Your City">
+            <div class="citiesbtn  max-h-52 absolute w-full left-0 top-full bg-black text-white flex flex-col gap-1 p-3 overflow-y-scroll">
+
+                <!-- <button class="py-2 rounded bg-slate-300 text-black">Kushtia</button> -->
+            </div>
+        </div>
+        <p class="weather">
+
+        </p>
+        <p class="time">
+            
+        </p>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
